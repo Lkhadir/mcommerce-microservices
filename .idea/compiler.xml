@@ -11,12 +11,14 @@
         <module name="mpaiement" />
         <module name="clientui" />
         <module name="mcommandes" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="clientui" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="config-sever" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="mcommandes" target="1.8" />
       <module name="mpaiement" target="1.8" />
       <module name="mproduits" target="1.8" />
@@ -27,6 +29,7 @@
       <module name="clientui" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="config-sever" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="mcommandes" options="-parameters" />
       <module name="mpaiement" options="-parameters" />
       <module name="mproduits" options="-parameters" />
