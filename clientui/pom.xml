@@ -33,19 +33,18 @@
             <scope>test</scope>
         </dependency>
 
-        <!--        &lt;!&ndash;		dependency for bootstrap&ndash;&gt;-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.webjars</groupId>-->
-        <!--            <artifactId>bootstrap</artifactId>-->
-        <!--            <version>4.0.0-2</version>-->
-        <!--        </dependency>-->
+        <!--		dependency for bootstrap-->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>4.0.0-2</version>
+        </dependency>
 
-        <!--        depedency for feign-->
+        <!--                depedency for feign-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
-
 
 
         <dependency>
@@ -57,7 +56,7 @@
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
 
-<!--        dependency for cloud load balancer-->
+        <!--        dependency for cloud load balancer-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-loadbalancer</artifactId>
