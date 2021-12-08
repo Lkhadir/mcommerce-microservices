@@ -7,6 +7,7 @@ import com.clientui.proxies.MicroserviceCommandeProxy;
 import com.clientui.proxies.MicroservicePaiementProxy;
 import com.clientui.proxies.MicroserviceProduitsProxy;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
