@@ -8,7 +8,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableFeignClients("com.clientui")
 @EnableDiscoveryClient
-//@EntityScan("com.clientui.proxies.MicroserviceProduitsProxy")
 public class ClientUiApplication {
 
 	public static void main(String[] args) {
