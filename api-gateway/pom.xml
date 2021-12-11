@@ -37,11 +37,19 @@
             <scope>test</scope>
         </dependency>
 
-<!--        to work with bootstrap.properties-->
+        <!--        to work with bootstrap.properties-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
+
+<!--        add security to api gateway -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+
     </dependencies>
     <dependencyManagement>
         <dependencies>
