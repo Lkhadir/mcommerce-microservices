@@ -8,14 +8,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "microservice-produits")
+@FeignClient(name = "api-gateway")
 @LoadBalancerClient(name = "microservice-produits")
 public interface MicroserviceProduitsProxy {
-    @GetMapping(value = "/Produits")
+    @GetMapping(value = "/MICROSERVICE-PRODUITS/Produits")
     List<ProductBean> listeDesProduits();
 
-
-    @GetMapping( value = "/Produits/{id}")
+    @GetMapping( value = "/MICROSERVICE-PRODUITS/Produits/{id}")
     ProductBean recupererUnProduit(@PathVariable("id") int id);
 
 

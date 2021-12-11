@@ -8,7 +8,8 @@
 <div class="container"><h1>Application Mcommerce</h1>
     <div class="row">
         <div th:each="produit : ${produits}" class="col-md-4 my-1">
-            <a th:href="@{|/details-produit/${produit.id}|}">
+<!--            <a th:href="@{|/details-produit/${produit.id}|}">-->
+            <a th:href="@{|/CLIENTUI/details-produit/${produit.id}|}">
                 <img th:src="${produit.image}" class="card-img-top" height="300px"  />
                 <p th:text="${produit.titre}"></p>
             </a></div>
