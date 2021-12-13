@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/../mcommerce-config-repo/mcommerce-config-repo.iml" filepath="$PROJECT_DIR$/../mcommerce-config-repo/mcommerce-config-repo.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-paiement/mpaiement.iml" filepath="$PROJECT_DIR$/microservice-paiement/mpaiement.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-produits/mproduits.iml" filepath="$PROJECT_DIR$/microservice-produits/mproduits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springadmin/springadmin.iml" filepath="$PROJECT_DIR$/springadmin/springadmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../zipkin jar/zipkin jar.iml" filepath="$PROJECT_DIR$/../zipkin jar/zipkin jar.iml" />
     </modules>
   </component>
